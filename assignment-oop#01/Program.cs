@@ -1,5 +1,5 @@
 ﻿namespace assignment_oop_01;
-internal class Program{
+public static class Program{
     static void Main(string[] args){
 
         #region Question-part1-01
@@ -49,8 +49,19 @@ internal class Program{
         #region Question-part1-02
         // Explain the difference between public and private access modifiers with an example
 
+        /*
+            public : can be accessed from anywhere in the code
+            private : can only be accessed within the class or struct it is declared in
+        */
+
+        //Animals animals = new Animals();
+
+        //animals.
+        //No fields can be called here because their type is private.
 
 
+        //Console.WriteLine(animals.soundd);
+        //Here, a function of type public can be called.
 
         #endregion
 

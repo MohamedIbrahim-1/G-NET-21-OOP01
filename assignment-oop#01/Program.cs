@@ -94,47 +94,47 @@ public static class Program{
 
 
         #region Question-part2
+        //using chatgpt and claude and gemini
+        /*
 
-      /*
-        
-        Console.Write("Enter Movie Name: ");
-        string movie = Console.ReadLine()!;
+          Console.Write("Enter Movie Name: ");
+          string movie = Console.ReadLine()!;
 
-        Console.Write("Enter Ticket Type (0 = Standard, 1 = VIP, 2 = IMAX): ");
-        int typeNum = int.Parse(Console.ReadLine()!);
-        string type = typeNum == 1 ? TicketTypes.VIP : typeNum == 2 ? TicketTypes.IMAX : TicketTypes.Standard;
+          Console.Write("Enter Ticket Type (0 = Standard, 1 = VIP, 2 = IMAX): ");
+          int typeNum = int.Parse(Console.ReadLine()!);
+          string type = typeNum == 1 ? TicketTypes.VIP : typeNum == 2 ? TicketTypes.IMAX : TicketTypes.Standard;
 
-        Console.Write("Enter Seat Row (A, B, C...): ");
-        char row = char.Parse(Console.ReadLine()!);
+          Console.Write("Enter Seat Row (A, B, C...): ");
+          char row = char.Parse(Console.ReadLine()!);
 
-        Console.Write("Enter Seat Number: ");
-        int seatNum = int.Parse(Console.ReadLine()!);
+          Console.Write("Enter Seat Number: ");
+          int seatNum = int.Parse(Console.ReadLine()!);
 
-        Console.Write("Enter Price: ");
-        double price = double.Parse(Console.ReadLine()!);
+          Console.Write("Enter Price: ");
+          double price = double.Parse(Console.ReadLine()!);
 
-        Console.Write("Enter Discount Amount: ");
-        double discount = double.Parse(Console.ReadLine()!);
+          Console.Write("Enter Discount Amount: ");
+          double discount = double.Parse(Console.ReadLine()!);
 
-        Seat seat = new Seat(row, seatNum);
-        Ticket ticket = new Ticket(movie, type, seat, price);
+          Seat seat = new Seat(row, seatNum);
+          Ticket ticket = new Ticket(movie, type, seat, price);
 
-        // Print before discount
-        ticket.PrintTicket(14);
+          // Print before discount
+          ticket.PrintTicket(14);
 
-        // Apply discount
-        ticket.ApplyDiscount(ref discount);
+          // Apply discount
+          ticket.ApplyDiscount(ref discount);
 
-        // Print after discount
-        Console.WriteLine("===== After Discount =====");
-        Console.WriteLine($"Discount Before : {price - ticket.CalcTotal(0):0.00}");
-        Console.WriteLine($"Discount After  : {discount:0.00}");
-        ticket.PrintTicket(14);
-      
-       */
-    
+          // Print after discount
+          Console.WriteLine("===== After Discount =====");
+          Console.WriteLine($"Discount Before : {price - ticket.CalcTotal(0):0.00}");
+          Console.WriteLine($"Discount After  : {discount:0.00}");
+          ticket.PrintTicket(14);
 
-    #endregion
+         */
 
-}
+
+        #endregion
+
+    }
 }
